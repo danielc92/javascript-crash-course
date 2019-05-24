@@ -58,3 +58,37 @@ nums.pop();
 console.log(nums.slice(2));
 console.log(nums);
 console.log(classroom.reverse());
+
+/* OBJECT LITERALS */
+let stats = {
+    'height': 175,
+    'weight': 65,
+    'from':'Australia',
+    'going':'New Zealand'
+}
+
+console.log(stats.height);
+console.log(stats['height']);
+stats['height'] = 180;
+console.log(stats);
+stats['interests'] = ['drawing', 'eating']
+console.log(stats);
+
+
+// They can be stored in a an array
+let employees = [
+    {
+        'name':'Harry',
+        'title':'data engineer',
+        'age':26,
+        'food':['sandwhich', 'apples', 'oatmeal', 'donuts']},
+    {
+        'name':'George',
+        'title':'data engineer',
+        'age':22},
+    {
+        'name':'Rufus',
+        'title':'data engineer',
+        'age':34
+    }
+]

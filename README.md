@@ -34,6 +34,7 @@ The format for this section will follow along the lines of what the topic is, fo
 
 ### Arrays
 - Arrays can be created using closed brackets of via the `Array` class
+- Synomous with lists from `python`
 - Arrays can contain multiple data types
 - Arrays can be nested
 - Arrays start at `0` index
@@ -44,8 +45,17 @@ The format for this section will follow along the lines of what the topic is, fo
     - `sort()` can sort an array a-z
     - `reverse()` (not the opposite of `sort()`) can be used to reverse the *order* of an array
 
+### Object Literals
+- Consist of key value pairs
+- They can be highly nested in nature
+- They can be 'stringified' to JSON strings (suitable for API services)
+- Synonomous with dictionaries from `python`
+- New items can be set with `[key]` notation or with `.key`
+- Items can be accessed by their key
+- Items can be arrays or object literals, as well as strings, numbers, booleans, nulls etc
 
-
+# Contributors
+- Daniel Corcoran
 
 # Sources 
-[Link to course can be found here](https://www.youtube.com/watch?v=hdI2bqOjy3c)
+[JavaScript Crash Course For Beginners](https://www.youtube.com/watch?v=hdI2bqOjy3c)
