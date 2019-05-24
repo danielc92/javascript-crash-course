@@ -127,3 +127,27 @@ while (x <= 4) {
     //console.log(x * 5);
     x ++;
 }
+
+/* CONDITIONALS */
+
+const test = 40;
+let target = 100;
+
+// basic if
+if (test > target) {
+    console.log('target met.');
+} else {
+    console.log('target is not met.');
+}
+
+// using the or operator
+if (test > 10 || test < -1) {
+    console.log('condition has been met');
+}
+
+if (test == 40 && target == 1200) {
+    console.log('Another condition has been met');
+} else {
+    console.log('Else activated');
+}
+

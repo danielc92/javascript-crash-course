@@ -34,7 +34,7 @@ The format for this section will follow along the lines of what the topic is, fo
 
 ### Arrays
 - Arrays can be created using closed brackets of via the `Array` class
-- Synomous with lists from `python`
+- Synonymous with lists from `python`
 - Arrays can contain multiple data types
 - Arrays can be nested
 - Arrays start at `0` index
@@ -49,7 +49,7 @@ The format for this section will follow along the lines of what the topic is, fo
 - Consist of key value pairs
 - They can be highly nested in nature
 - They can be 'stringified' to JSON strings (suitable for API services)
-- Synonomous with dictionaries from `python`
+- Synonymous with dictionaries from `python`
 - New items can be set with `[key]` notation or with `.key`
 - Items can be accessed by their key
 - Items can be arrays or object literals, as well as strings, numbers, booleans, nulls etc
@@ -59,7 +59,13 @@ The format for this section will follow along the lines of what the topic is, fo
     - A basic for loop `for (let i=0; i<array.length; i++)`
     - Using the `forEach` method
     - Using a simplified loop syntax `for (let item of array)`
-    - Using the `map` method
+    - Using the `map` method or `filter` (functional programming methods)
+
+### Conditionals
+- Conditionals are used to evaluate conditions based on and/or statements
+    - conditions can be evaluated using an `if` loop
+    - or statements can be denoted by `||`
+    - and statements can be denoted by `&&` or a nested `if else`
 
 # Contributors
 - Daniel Corcoran
