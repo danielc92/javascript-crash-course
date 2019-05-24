@@ -54,6 +54,13 @@ The format for this section will follow along the lines of what the topic is, fo
 - Items can be accessed by their key
 - Items can be arrays or object literals, as well as strings, numbers, booleans, nulls etc
 
+### Looping
+- Looping through arrays can be done in a magnitude of ways
+    - A basic for loop `for (let i=0; i<array.length; i++)`
+    - Using the `forEach` method
+    - Using a simplified loop syntax `for (let item of array)`
+    - Using the `map` method
+
 # Contributors
 - Daniel Corcoran
 

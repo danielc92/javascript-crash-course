@@ -92,3 +92,38 @@ let employees = [
         'age':34
     }
 ]
+
+/* LOOPS */
+const fruits = ['apple', 'banana', 'grape', 'kiwi', 'watermelon'];
+// for loop
+
+for (let i = 0; i < fruits.length; i++){
+    console.log(fruits[i] + ' - using a basic for loop');
+}
+
+for (let item of fruits) {
+    console.log(item + 'using a simplified loop');
+}
+
+let e = employees.map(function(emp){
+    return emp.name;
+});
+
+employees.forEach(function(emp){
+    console.log(`Found another ${emp.name}`);
+});
+
+let e_filtered = employees.filter(function(employees){
+    return employees.age > 25;
+})
+
+console.log(e);
+console.log(e_filtered, e_filtered.length);
+
+// while loop
+let x = 0;
+while (x <= 4) {
+    //console.log(x);
+    //console.log(x * 5);
+    x ++;
+}
