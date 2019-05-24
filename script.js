@@ -33,7 +33,13 @@ console.log(age * force);
 console.log(typeof active, typeof age);
 
 /* PROPERTIES AND METHODS */
-let s = 'my string!';
+let s = 'my, string!,  How are,   you';
 let s_short = s.substring(0, 4);
 console.log(s_short);
 console.log(s.length);
+
+const splitted = s.split(',');
+console.log(splitted);
+
+
+
