@@ -35,6 +35,15 @@ The format for this section will follow along the lines of what the topic is, fo
 ### Arrays
 - Arrays can be created using closed brackets of via the `Array` class
 - Arrays can contain multiple data types
+- Arrays can be nested
+- Arrays start at `0` index
+- Arrays have many useful built in methods
+    - `push()` can append items to the end arrays
+    - `pop()` can remove the last item from array
+    - `indexOf()` can be used to return the index of an item (it does not return multiple indices)
+    - `sort()` can sort an array a-z
+    - `reverse()` (not the opposite of `sort()`) can be used to reverse the *order* of an array
+
 
 
 

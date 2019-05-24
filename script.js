@@ -41,5 +41,20 @@ console.log(s.length);
 const splitted = s.split(',');
 console.log(splitted);
 
+/* ARRAYS */
+let classroom = ['john', 'bobby', 'ross', 'ross', 'jessica', 'anna', 'bruce'];
+console.log(classroom);
+console.log(`The length of this array is ${classroom.length}`);
+console.log(classroom.indexOf('ross'));
+console.log(classroom.pop());
+console.log('shifting');
+console.log(classroom);
+console.log(classroom.unshift('daniel'));
 
-
+let nums = [1];
+nums.push(3);
+nums.push(7,6);
+nums.pop();
+console.log(nums.slice(2));
+console.log(nums);
+console.log(classroom.reverse());
