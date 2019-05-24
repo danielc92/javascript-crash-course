@@ -21,4 +21,4 @@ console.log(name_sentence);
 let active = true;
 let inactive = false;
 
-//
+name.
