@@ -151,3 +151,41 @@ if (test == 40 && target == 1200) {
     console.log('Else activated');
 }
 
+
+/* ARROW FUNCTIONS */
+
+function checkIfScoreHigh(score) {
+    if (score >= 90) {
+        return 'This is so dam high!';
+    } else if (score >= 60) {
+        return 'This score is pretty good';
+    } else {
+        return 'This score absolutely sucks';
+    }
+}
+
+
+const checkIfScoreHighArrow = (score) => {
+    if (score >= 90) {
+        return 'This is so dam high!';
+    } else if (score >= 60) {
+        return 'This score is pretty good';
+    } else {
+        return 'This score absolutely sucks';
+    }
+}
+
+let myscore = 93;
+
+
+console.log(checkIfScoreHigh(myscore));
+console.log(checkIfScoreHighArrow(myscore));
+
+const AddTheseNumbers = (x, x2, x3) => {
+    return x + x2 + x3;
+}
+
+const AddTheseNumbers2 = (x, x2) => x * x2;
+
+console.log(AddTheseNumbers(2,5,1));
+console.log(AddTheseNumbers2(5,10));

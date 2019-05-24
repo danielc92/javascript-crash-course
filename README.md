@@ -67,6 +67,13 @@ The format for this section will follow along the lines of what the topic is, fo
     - or statements can be denoted by `||`
     - and statements can be denoted by `&&` or a nested `if else`
 
+### Functions
+- Functions should have an input(s) and an output (return)
+- Functions can be written using *arrow statements* with the `=>`
+    - const func_name = (args) => { so something}
+- Functions can also be written using the `function` keyword
+    - function func_name (args) { do something }
+
 # Contributors
 - Daniel Corcoran
 
