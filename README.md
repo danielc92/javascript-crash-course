@@ -74,6 +74,14 @@ The format for this section will follow along the lines of what the topic is, fo
 - Functions can also be written using the `function` keyword
     - function func_name (args) { do something }
 
+### Classes
+- Classes can be created in several ways;
+    - With the `Class` keyword. This method is more readable and is more similar to the way python Classes are represented. 
+    - With the `function` keyword
+- `this` is used to refer to a class property (similar to `self` in python)
+- `prototype` can be used to add methods to a `Class`
+- `constructor` can be used to add initializing instructions to a `Class` when using the `Class` keyword to create the `Class` blueprint.
+
 # Contributors
 - Daniel Corcoran
 
