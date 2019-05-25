@@ -279,3 +279,12 @@ console.log(myname.toUpperCase());
 
 
 console.log(document.querySelectorAll('.veggie'));
+
+let body = document.getElementById('content');
+
+let new_p_tag = document.createElement('p');
+
+let text_node = document.createTextNode('This paragraph was added via javascript.')
+
+new_p_tag.appendChild(text_node);
+body.appendChild(new_p_tag);

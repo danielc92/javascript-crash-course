@@ -93,6 +93,7 @@ The format for this section will follow along the lines of what the topic is, fo
     - Both these methods return different types, where one is a `NodeList` and one is a `HTMLCollection`. The `NodeList` can use `Array` methods
 - Single result can be returns by usign `getElementById` or `querySelect`
 - The text or HTML of a node can be returned by accessing the `innerHTML` or `innerText` methods
+- New nodes can be created and appened to existing HTML Tags using `appendChild`, `createTextNode` and `createElement` methods respectively.
 
 
 # Contributors
