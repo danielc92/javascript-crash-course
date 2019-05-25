@@ -189,3 +189,63 @@ const AddTheseNumbers2 = (x, x2) => x * x2;
 
 console.log(AddTheseNumbers(2,5,1));
 console.log(AddTheseNumbers2(5,10));
+
+
+/* CONSTRUCTORS */
+
+function Person (name, address, dob) {
+    this.name = name;
+    this.address = address;
+    this.dob = dob;
+
+    this.getNameLength = function () {
+        return this.name.length;
+    }
+}
+
+class Car {
+    
+    constructor(owner, brand, model, price) {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+        this.owner = owner;
+    }
+
+    getBrand() {
+        return this.brand;
+    }
+
+    getModel() {
+        return this.model;
+    }
+
+    getOwner() {
+        return this.owner;
+    }
+
+    checkAffordability(amount) {
+        if (amount >= this.price) {
+            return 'You can afford this car!';
+
+        } else {
+            return 'This car is too expensive';
+        }
+    }
+}
+
+Person.prototype.getAddress = function() {
+    return this.address;
+}
+
+let daniel = new Person(name = "Daniel Corcoran", address="3 Donut Lane", dob = "3-5-1992");
+
+console.log(daniel);
+console.log(daniel.getNameLength());
+console.log(daniel.getAddress());
+
+let freds_car = new Car(owner="Fred", brand='Mazda', model='Old Mazda', price=5000.00);
+
+console.log(`Freds car is of brand ${freds_car.brand} and he bought it for ${freds_car.price}`)
+console.log(freds_car.checkAffordability(amount=8000));
+console.log(freds_car.getOwner());
