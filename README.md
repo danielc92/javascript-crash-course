@@ -82,6 +82,19 @@ The format for this section will follow along the lines of what the topic is, fo
 - `prototype` can be used to add methods to a `Class`
 - `constructor` can be used to add initializing instructions to a `Class` when using the `Class` keyword to create the `Class` blueprint.
 
+### The DOM
+- Document Object Model (`document`) allows to select objects from the dom and manipulate them in real time.
+- Generally speaking there are two methods of accessing HTML through the DOM
+    - `document.getElementsByClassName`
+    - `document.querySelectorAll`
+- Multiple results can be returned in array format using `querySelectorAll` or `getElementsByClassName`
+    - With querySelectors you can specify a prefix `#` for id, `.` for class (similar to referencing in `.css` files)
+    - With getElementsByClassName you can simply specifiy the class name without any prefix
+    - Both these methods return different types, where one is a `NodeList` and one is a `HTMLCollection`. The `NodeList` can use `Array` methods
+- Single result can be returns by usign `getElementById` or `querySelect`
+- The text or HTML of a node can be returned by accessing the `innerHTML` or `innerText` methods
+
+
 # Contributors
 - Daniel Corcoran
 

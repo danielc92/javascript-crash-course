@@ -249,3 +249,33 @@ let freds_car = new Car(owner="Fred", brand='Mazda', model='Old Mazda', price=50
 console.log(`Freds car is of brand ${freds_car.brand} and he bought it for ${freds_car.price}`)
 console.log(freds_car.checkAffordability(amount=8000));
 console.log(freds_car.getOwner());
+
+/* SELECTING AND MANIPULATING THE DOM */
+
+// Select by id
+let title = document.getElementById('the-title');
+console.log(title);
+
+// Show inner text or inner HTML
+console.log(title.innerHTML);
+console.log(title.innerText);
+
+// Multiple elements
+let veggies = document.querySelectorAll('.veggie');
+
+veggies.forEach((v) => {
+    console.log(v.innerHTML);
+    v.innerHtml = 'a new veggie';
+});
+
+let veggies2 = document.getElementsByClassName('veggie');
+
+console.log(veggies2);
+veggies2[5].style.background = 'red';
+veggies2[5].style.color = 'white';
+
+let myname = "DaniEL";
+console.log(myname.toUpperCase());
+
+
+console.log(document.querySelectorAll('.veggie'));
